@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "qf-maktabi-privilege-admin-client-side-solution",
+    "id": "bfcedbb0-9907-4d8c-bb6f-1c6588ffaee5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "qf-maktabi-privilege-admin description"
+      },
+      "longDescription": {
+        "default": "qf-maktabi-privilege-admin description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "qf-maktabi-privilege-admin Feature",
+        "description": "The feature that activates elements of the qf-maktabi-privilege-admin solution.",
+        "id": "eea20e9c-7f7e-400c-a26f-3b9d204a9b5f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/qf-maktabi-privilege-admin.sppkg"
+  }
+}

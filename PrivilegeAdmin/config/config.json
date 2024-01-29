@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "qf-maktabi-privilege-admin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/qfMaktabiPrivilegeAdmin/QfMaktabiPrivilegeAdminWebPart.js",
+          "manifest": "./src/webparts/qfMaktabiPrivilegeAdmin/QfMaktabiPrivilegeAdminWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-vendor-approval-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpVendorApproval/WpVendorApprovalWebPart.js",
+          "manifest": "./src/webparts/wpVendorApproval/WpVendorApprovalWebPart.manifest.json"
+        }
+      ]
+    },
+    "qf-maktabi-privilege-approval-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/qfMaktabiPrivilegeApproval/QfMaktabiPrivilegeApprovalWebPart.js",
+          "manifest": "./src/webparts/qfMaktabiPrivilegeApproval/QfMaktabiPrivilegeApprovalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QfMaktabiPrivilegeAdminWebPartStrings": "lib/webparts/qfMaktabiPrivilegeAdmin/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "WpVendorApprovalWebPartStrings": "lib/webparts/wpVendorApproval/loc/{locale}.js",
+    "QfMaktabiPrivilegeApprovalWebPartStrings": "lib/webparts/qfMaktabiPrivilegeApproval/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,34 @@
+.app-body{
+    text-align: left;
+}
+
+html:not([dir=rtl]) .sidebar {
+    margin-left: 0;
+}
+
+.app-body .sidebar {
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+.sidebar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0;
+    color: #fff;
+    background: #2f353a;
+    margin-left:auto
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.mandatory-label::after {
+    content: " *";
+    color: red;
+  }

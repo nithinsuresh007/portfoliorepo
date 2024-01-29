@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "qf-maktabi-privilege-admin",
+    "libraryId": "bfcedbb0-9907-4d8c-bb6f-1c6588ffaee5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "qf-maktabi-privilege-admin",
+    "solutionShortDescription": "qf-maktabi-privilege-admin description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
